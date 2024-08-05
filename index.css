@@ -43,7 +43,7 @@ body {
 
 .main h2 {
   font-size: 24px;
-  margin: 40px 0 15px; /* Adjusted margin-top to 40px for main content */
+  margin: 40px 0 15px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@ body {
 
 .sidebar h2 {
   font-size: 24px;
-  margin: 20px 0 15px; /* Retained margin-top of 20px for sidebar */
+  margin: 20px 0 15px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -116,4 +116,14 @@ a:hover {
 .certificate {
   width: 430px;
   color: rgb(101, 101, 101);
+}
+.second {
+  margin-top: 15px;
+}
+
+.title {
+  color: #3e3e3edd;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
