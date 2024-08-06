@@ -113,17 +113,33 @@ a:hover {
 .skills {
   font-size: 14px;
 }
+
 .certificate {
   width: 430px;
   color: rgb(101, 101, 101);
 }
-.second {
-  margin-top: 15px;
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.title {
-  color: #3e3e3edd;
+.projects ul li {
+  margin: 10px 0;
+}
+
+.projects .title {
   font-weight: 500;
-  margin-bottom: 10px;
-  font-size: 18px;
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+.projects a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.projects a:hover {
+  text-decoration: underline;
 }
