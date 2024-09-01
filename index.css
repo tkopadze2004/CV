@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
   font-family: "Roboto", sans-serif;
   color: #333;
@@ -6,22 +8,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #f0f2f5;
+  line-height: 1.6;
 }
 
 .container {
   background-color: #fff;
-  width: 890px;
+  max-width: 960px;
+  width: 100%;
   display: flex;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  margin: 20px; 
 }
 
-.main,
+.main
+{
+    padding: 30px 30px; 
+  
+}
 .sidebar {
-  padding: 40px;
+  padding: 95px 25px;
 }
 
 .main {
@@ -30,28 +39,20 @@ body {
 
 .sidebar {
   flex: 1;
-  background-color: #f2f4f8;
+  background-color: #f7f9fc;
   font-size: 14px;
-  padding-top: 50px;
 }
 
 .name {
-  margin: 0 0 20px;
-  font-size: 40px;
+  margin-bottom: 15px;
+  font-size: 43px;
   font-weight: 500;
 }
 
-.main h2 {
-  font-size: 24px;
-  margin: 40px 0 15px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-}
-
+.main h2,
 .sidebar h2 {
-  font-size: 24px;
-  margin: 20px 0 15px;
+  font-size: 23px;
+  margin: 25px 0 10px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -59,14 +60,13 @@ body {
 
 h2 img {
   margin-right: 10px;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 p,
 ul {
   margin: 10px 0;
-  line-height: 1.6;
 }
 
 ul {
@@ -93,15 +93,14 @@ a:hover {
   display: flex;
   flex-direction: column;
   line-height: 1.4;
-  margin-top: 15px;
-  gap: 5px;
+  gap: 8px;
 }
 
 .hobbies,
 .languages {
   display: flex;
+  gap: 2px;
   flex-direction: column;
-  gap: 5px;
 }
 
 .date {
@@ -112,10 +111,11 @@ a:hover {
 
 .skills {
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
 }
 
 .certificate {
-  width: 430px;
   color: rgb(101, 101, 101);
 }
 
@@ -125,21 +125,18 @@ a:hover {
 }
 
 .projects ul li {
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 .projects .title {
   font-weight: 500;
   margin-right: 5px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
-.projects a {
-  color: #0066cc;
-  text-decoration: none;
-  font-weight: 500;
+.experience ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 1.7;
 }
 
-.projects a:hover {
-  text-decoration: underline;
-}
