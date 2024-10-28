@@ -14,7 +14,7 @@ body {
 
 .container {
   background-color: #fff;
-  max-width: 966px;
+  max-width: 970px;
   width: 100%;
   display: flex;
   height: auto;
@@ -129,12 +129,6 @@ a:hover {
   line-height: 1.7;
 }
 
-.projects .title {
-  font-weight: 500;
-  font-size: 18px;
-  margin-right: 8px;
-}
-
 .detail {
   color: #888;
   font-size: 15px;
@@ -145,6 +139,8 @@ a:hover {
   align-items: center;
 }
 
+.projects .title,
 .locations {
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 17px;
 }
