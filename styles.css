@@ -203,3 +203,48 @@ li { margin-bottom: 7px; font-size: 14.5px; color: #3a3a3a; line-height: 1.65; }
 .project p { font-size: 13.5px; color: #555; margin-top: 4px; }
 .project a { color: #2c7be5; font-size: 13px; text-decoration: none; display: inline-block; margin-top: 5px; }
 .project a:hover { text-decoration: underline; }
+
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body {
+    display: block;
+    padding: 0 !important;
+  }
+
+  .container {
+    width: 210mm;
+    height: 297mm;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .main {
+    padding: 22px 26px;
+  }
+
+  .sidebar {
+    padding: 22px 16px;
+  }
+
+  section {
+    margin-top: 18px;
+  }
+
+  li {
+    margin-bottom: 4px;
+    line-height: 1.5;
+  }
+}
